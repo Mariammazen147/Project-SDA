@@ -1,6 +1,7 @@
 package com.example.Model;
 
-import java.sql.Date;
+
+import java.util.Date;
 
 import com.example.API.HotelAPI;
 import com.example.Service.Database;
@@ -19,7 +20,8 @@ public class Booking {
 
         this.userId = userId;
         this.hotelId = hotelId;
-        this.bookingDate = date;
+        this.bookingDate = (date != null) ? date : new Date();
+
        
         if(HotelAPI.bookHotel(hotelId, userId))
         {
