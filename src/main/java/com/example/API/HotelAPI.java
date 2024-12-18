@@ -4,7 +4,7 @@ import com.example.Model.Hotel;
 
 public class HotelAPI {
 
-    public static boolean bookHotel(int hotelId, int userId)
+    public static boolean bookHotel(int hotelId, long userId)
     {
         return true;
     }
@@ -13,5 +13,10 @@ public class HotelAPI {
     {
         Hotel h = new Hotel();
         return h;
+    }
+
+    public static boolean updateHotelById(int hotelId, Hotel hotel)
+    {
+        return true;
     }
 }
