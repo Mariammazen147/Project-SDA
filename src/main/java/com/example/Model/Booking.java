@@ -14,6 +14,14 @@ public class Booking {
     private int eventId;
     private Date bookingDate;
     private String status;
+    //Added by mariam
+    private String hotelName;
+
+    public Booking(String hotelName, int userId) {
+        this.hotelName = hotelName;
+        this.userId = userId;
+    }
+    //5las 5lst
 
     public boolean createBooking(int userId, int hotelId, Date date)
     {
