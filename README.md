@@ -5,7 +5,7 @@ Project-SDA is a Spring Boot-based web application for a **Travel Agency** manag
 
 ## Technologies Used
 - **Backend**: Spring Boot
-- **Database**: SQL Server (via JPA)
+- **Database**: SQL Server (via JDBC)
 - **Build Tool**: Maven
 - **API Framework**: JAX-RS (for RESTful services)
 
@@ -85,8 +85,6 @@ Before running the application, ensure you have the following installed:
    ```
 7. **Create a pull request** (PR) on the original repository to merge your changes.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - **Spring Boot** for providing a comprehensive, easy-to-use framework for Java-based applications.
